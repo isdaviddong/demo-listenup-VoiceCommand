@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>______</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>listenup</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>______</Authors>
+    <Company>______</Company>
+    <Product>______</Product>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Description>
+      Voice Command CLI
+    </Description>
+    <AssemblyName>______</AssemblyName>
+    <RootNamespace>______</RootNamespace>
+    <PackageReleaseNotes> </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.19.0" />
+  </ItemGroup>
+
+</Project>
